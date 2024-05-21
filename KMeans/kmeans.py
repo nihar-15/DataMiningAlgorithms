@@ -71,7 +71,7 @@ for _ in range(iterations):
     listOfCentroid = new_centroids
 
 # Plot the final clusters
-colors = ['r', 'g', 'b', 'y', 'c', 'm']  # Extend this list if you have more than 6 clusters
+colors = ['r', 'g', 'b', 'y', 'c', 'm'] 
 for i in range(k):
     cluster_points = clusters[i]
     cluster_x = [point[0] for point in cluster_points]
